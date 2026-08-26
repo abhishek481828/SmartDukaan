@@ -1,0 +1,38 @@
+# SmartDukaan Backend — FastAPI 0.111.x
+# Core
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-dotenv==1.0.1
+
+# Database
+sqlalchemy==2.0.31
+aiosqlite==0.20.0
+alembic==1.13.1
+greenlet==3.3.2
+
+# Auth
+python-jose[cryptography]==3.3.0
+bcrypt==4.2.1
+python-multipart==0.0.9
+
+# ML & Data
+xgboost
+scikit-learn
+pandas
+numpy
+
+# AI / LLM
+langchain
+langgraph
+langchain-groq
+
+# HTTP & Background Jobs
+httpx==0.27.0
+apscheduler==3.10.4
+
+# PDF Generation
+reportlab==4.2.2
+
+# WebSocket support (included in uvicorn[standard])
+websockets>=14.0
+

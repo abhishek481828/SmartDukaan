@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+.env
+
+# Database files
+*.db
+bizvaani.db
+
+# ML model artifacts
+ml/models/*.pkl
+ml/models/*.joblib
+
+# Environment variables
+.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
