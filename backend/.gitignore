@@ -12,7 +12,7 @@ venv/
 
 # Database files
 *.db
-bizvaani.db
+smartdukaan.db
 
 # ML model artifacts
 ml/models/*.pkl

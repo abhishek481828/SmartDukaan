@@ -3,3 +3,6 @@ docs/
 .env
 .env.*
 !.env.example
+*.db
+*.wav
+
